@@ -1,0 +1,32 @@
+---
+title: "Welcome to My Blog"
+description: |
+  Welcome to our new blog, My Blog. We hope you enjoy 
+  reading what we have to say!
+author:
+  - name: Maiko Hata 
+date: 02-19-2025
+output: "docs" 
+base_url: 
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r}
+library(distill)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+```{r}
+# Do NOT touch the docs folder - they'll be generated 
+# deleted the next three lines after the name (html etc.)
+#> usethis::use_git() to commit/push 1
+
+```
