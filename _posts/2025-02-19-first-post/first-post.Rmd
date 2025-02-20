@@ -1,8 +1,6 @@
 ---
-title: "Welcome to My Blog"
+title: "First Blog"
 description: |
-  Welcome to our new blog, My Blog. We hope you enjoy 
-  reading what we have to say!
 author:
   - name: Maiko Hata 
 date: 02-19-2025
@@ -11,7 +9,8 @@ output: "docs"
     self_contained: false
 ---
 
-Here's an example plot with [ggplot]
+Here's the first example plot with [ggplot]
+
 ```{r plot}
 library(ggplot2)
 ggplot(mpg, aes(displ, cty)) +
